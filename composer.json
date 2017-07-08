@@ -1,0 +1,35 @@
+{
+    "name": "iflair/advancedimportexport",
+    "description": "Beneficial for those who want to identify and extract data based on column name.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": ["git@github.com:IFlairTech/AdvancedImportExport.git"]
+        }
+    ],
+    "authors": [
+        {
+            "name": "IFlair",
+            "email": "info@iflair.com",
+            "homepage": "http://iflair.com/",
+            "role": "Developer"
+        }
+    ],
+    "license": [
+        "GPL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IFlair\\AdvancedImportExport\\": ""
+        }
+}
+}
